@@ -1,11 +1,10 @@
+import Navbar from "./components/Footer and Navbar/navbar"
+import Input from "./components/Footer and Navbar/input";
 function App() {
   return (
-    <div className="h-screen bg-black flex justify-center items-center">
-      <header className="App-header">
-        <h1 class="text-red-500 text-lg">
-            Working...
-        </h1>
-      </header>
+    <div class="h-screen bg-black text-white">
+      <Navbar/>
+      <Input/>
     </div>
   );
 }
