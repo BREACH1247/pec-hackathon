@@ -1,8 +1,11 @@
 import Footer from "./components/footer";
+import Landing from "./components/landing";
+import "./App.css"
 
 function App() {
   return (
-    <div class="h-screen bg-black text-white">
+    <div class="main">
+      <Landing />
       <Footer />
     </div>
   );
