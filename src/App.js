@@ -1,11 +1,13 @@
 import Navbar from "./components/Footer and Navbar/navbar"
 import Input from "./components/Footer and Navbar/input";
-import 
+import "../src/App.css"
+import Footer from "./components/footer";
 function App() {
   return (
-    <div class="main-app">
+    <div class="main">
       <Navbar/>
       <Input/>
+      <Footer/>
     </div>
   );
 }
