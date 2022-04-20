@@ -6,8 +6,8 @@ import "../src/App.css"
 function App() {
   return (
     <div class="main">
-      <Landing />
       <Navbar/>
+      <Landing />
       <Input/>
       <Footer/>
     </div>

@@ -1,6 +1,5 @@
 .landing img{
     object-fit: cover;
-    width: 50vw;
 }
 
 .landing *{
@@ -8,10 +7,37 @@
     margin: 0;
 }
 
-.left-landing{
-    height: fit-content;
+.left-landing img{
+    height: 100vh
+}
+
+.right-landing img{
+    height: 50vh;
 }
 
 .landing{
     height: 100vh;
+}
+
+.landing-img img{
+    transition: 0.5s all ease-in-out;
+}
+
+.landing-img:hover img{
+    transform: scale(1.25);
+}
+
+.landing-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-txt{
+    margin-left: 1.5rem;
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    font-size: larger;
+    font-weight: 800;
+    text-shadow: 0 0 10px black;
 }
